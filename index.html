@@ -42,5 +42,33 @@
     * https://docs.flutter.dev/platform-integration/web/initialization
   -->
   <script src="flutter_bootstrap.js" async></script>
+  <script>
+    let recognition = null;
+
+    window.startSpeechRecognition = function(lang) {
+      return new Promise((resolve) => {
+        if (!('webkitSpeechRecognition' in window) && !('SpeechRecognition' in window)) {
+          resolve('');
+          return;
+        }
+        const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+        recognition = new SpeechRecognition();
+        recognition.lang = lang || 'ko-KR';
+        recognition.interimResults = false;
+        recognition.maxAlternatives = 1;
+        recognition.onresult = (event) => {
+          const text = event.results[0][0].transcript;
+          resolve(text);
+        };
+        recognition.onerror = () => resolve('');
+        recognition.onend = () => {};
+        recognition.start();
+      });
+    };
+
+    window.stopSpeechRecognition = function() {
+      if (recognition) recognition.stop();
+    };
+  </script>
 </body>
 </html>
