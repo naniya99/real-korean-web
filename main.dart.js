@@ -11397,7 +11397,7 @@ break
 case 4:s=l.a
 s===$&&A.a()
 s=A.bk(s,200)
-r=A.bk(A.a3w(l,B.p0,B.IE),24)
+r=A.bk(A.a3w(l,B.p0,B.IF),24)
 q=A.bk(A.a3w(l,B.p0,B.Jk),32)
 p=A.bk(l.a,10)
 o=A.bk(l.a,12)
@@ -30705,7 +30705,7 @@ if(e.b){q=t.f
 d=q.a(q.a(B.bY.hF(a2)).i(0,"data"))
 c=A.ct(d.i(0,"message"))
 if(c!=null&&c.length!==0){b=A.azh(d,"assertiveness")
-e.a.Vs(c,B.IB[b==null?0:b])}}a.eZ(a3,B.bY.bY(!0))
+e.a.Vs(c,B.IC[b==null?0:b])}}a.eZ(a3,B.bY.bY(!0))
 return
 case"flutter/navigation":q=a.gd_().b
 p=t.e8
@@ -35142,7 +35142,7 @@ m=A.hi(s.i(0,"fontWeightIndex"))
 l=m!=null?A.aB2(m):"normal"
 r=A.aAC(s.i(0,"fontSize"))
 if(r==null)r=null
-p=new A.ajt(new A.a4g(r,l,A.ct(s.i(0,"fontFamily")),B.Iz[o],B.kC[n]))
+p=new A.ajt(new A.a4g(r,l,A.ct(s.i(0,"fontFamily")),B.IA[o],B.kC[n]))
 break
 case"TextInput.clearClient":p=B.CU
 break
@@ -70701,7 +70701,7 @@ q.bg()
 q.cm$.E(0,s.gafM())
 s.e=q}return q},
 gR7(){var s=this.f
-return s===$?this.f=new A.aoi(1,B.Iy,B.bv):s},
+return s===$?this.f=new A.aoi(1,B.Iz,B.bv):s},
 ghw(){var s=this.z
 s=s==null?null:$.bY().d===s
 return s===!0},
@@ -85496,7 +85496,7 @@ if(!o.cy&&o.cx<1){p=o.cx+1
 if(q>=B.ht[p].a){o.w.iA()
 o.ab(new A.av7(o,p))}}},
 ali(a){var s,r,q=this
-for(s=q.ch+1;s<2;++s){r=B.IH[s]
+for(s=q.ch+1;s<2;++s){r=B.II[s]
 if(a>=r.a&&a<r.b){new A.avj(q,r,s).$0()
 q.c.bX()
 q.SO()
@@ -85507,15 +85507,18 @@ if(B.b.dH(b.f,new A.av2(r)))return!0
 s=b.r
 if(s!=null)if(B.b.dH(s,new A.av3(r)))return!0
 return!1},
-ah0(a){var s=this,r=s.k2[s.fx.vv(6)],q=B.ht[s.cx],p=s.gnk(),o=$.t6().gBu(),n=t.Oj
-p.oX(o,n).Vk("(\ubc14\ub9ac\uc2a4\ud0c0) "+q.b)
-p.oX(o,n).Vk(a)
-s.ab(new A.ava(s,new A.r6(0,0,"\ub098",a,!1),r))
-s.SO()
-n=s.go
-n===$&&A.a()
-n.kD(0)
-A.iV(B.nL,new A.avb(s),t.P)},
+ah0(a){var s,r,q,p=this,o=p.k2[p.fx.vv(6)],n=B.ht[p.cx]
+p.ab(new A.ava(p,new A.r6(0,0,"\ub098",a,!1),o))
+s=p.gnk()
+r=$.t6().gBu()
+q=t.Oj
+s.oX(r,q).Vk("(\ubc14\ub9ac\uc2a4\ud0c0) "+n.b)
+s.oX(r,q).Vk(a)
+p.SO()
+q=p.go
+q===$&&A.a()
+q.kD(0)
+A.iV(B.nL,new A.avb(p),t.P)},
 yu(){var s=0,r=A.C(t.H),q=this
 var $async$yu=A.y(function(a,b){if(a===1)return A.z(b,r)
 for(;;)switch(s){case 0:s=2
@@ -86244,7 +86247,7 @@ break
 case 1:return A.A(q,r)}})
 return A.B($async$vf,r)},
 aao(a){var s,r
-for(s=0;s<20;++s){r=B.IK[s]
+for(s=0;s<20;++s){r=B.IL[s]
 if(B.IQ[r.a]===a)return r}return null},
 aeI(a,b){var s,r,q=B.JX[a.a]
 for(s=q.length,r=0;r<s;++r)if(q[r]===b)return!0
@@ -94161,8 +94164,8 @@ B.cv=new A.dK(null,12,null,null)
 B.ni=new A.J(0.5411764705882353,1,1,1,B.e)
 B.AI=new A.m(!0,B.ni,null,null,null,null,13,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.Xk=new A.cr("\uc601\uc0c1 \ubd88\ub7ec\uc624\ub294 \uc911...",null,B.AI,null,null,null,null,null,null)
-B.IJ=s([B.Ds,B.cv,B.Xk],t.p)
-B.EU=new A.p0(B.af,B.bB,B.O,B.K,null,B.cC,null,0,B.IJ,null)
+B.IK=s([B.Ds,B.cv,B.Xk],t.p)
+B.EU=new A.p0(B.af,B.bB,B.O,B.K,null,B.cC,null,0,B.IK,null)
 B.Di=new A.fV(B.a_,null,null,B.EU,null)
 B.Bu=new A.xY(1.7777777777777777,B.Di,null)
 B.j0=new A.xZ(0,"polite")
@@ -95129,22 +95132,14 @@ B.J_=s([-271.815969077903,559.6580465940733,-32.46047482791194],t.n)
 B.K7=s([1.9622899599665666,-57.173814538844006,308.7233197812385],t.n)
 B.HP=s([B.Jj,B.J_,B.K7],t.zg)
 B.oW=s(["text","multiline","number","phone","datetime","emailAddress","url","visiblePassword","name","address","none","webSearch","twitter"],t.s)
-B.a_F=s(["\uc8fc\uc138\uc694","\ud560\uac8c\uc694","\ub77c\ub5bc","\uc544\uba54\ub9ac\uce74\ub178","\ucee4\ud53c","\uce74\ud478\uce58\ub178","\ubaa8\uce74"],t.s)
-B.IL=s(["\ub77c\ub5bc","\ud55c \uc794","\uc8fc\uc138\uc694"],t.s)
-B.YV=new A.DZ(0.6,"\ubc14\ub9ac\uc2a4\ud0c0\uc5d0\uac8c \uc8fc\ubb38\ud574\ubcf4\uc138\uc694!","Order your coffee!",B.IL,null)
-B.a_J=s(["\uc544\uc774\uc2a4","\ub530\ub73b","\ud56b","\ucc28\uac11","\ub728\uac81","\ucc28\uac8c","\ub728\uac81\uac8c"],t.s)
-B.Ji=s(["\uc544\uc774\uc2a4","\ub85c","\uc8fc\uc138\uc694"],t.s)
-B.IP=s(["\ub530\ub73b\ud558\uac8c","\uc8fc\uc138\uc694"],t.s)
-B.YW=new A.DZ(3.8,"\uc544\uc774\uc2a4 \ub610\ub294 \ub530\ub73b\ud558\uac8c \uc120\ud0dd\ud558\uc138\uc694!","Choose hot or iced!",B.Ji,B.IP)
-B.ht=s([B.YV,B.YW],A.am("r<DZ>"))
 B.Ic=s([4,9,14,19],t.t)
 B.mp=new A.GF(0,"named")
 B.Bh=new A.GF(1,"anonymous")
 B.In=s([B.mp,B.Bh],A.am("r<GF>"))
 B.J2=s([0.41233895,0.35762064,0.18051042],t.n)
-B.IG=s([0.2126,0.7152,0.0722],t.n)
+B.IH=s([0.2126,0.7152,0.0722],t.n)
 B.K1=s([0.01932141,0.11916382,0.95034478],t.n)
-B.cP=s([B.J2,B.IG,B.K1],t.zg)
+B.cP=s([B.J2,B.IH,B.K1],t.zg)
 B.oX=s([0,4,12,1,5,13,3,7,15],t.t)
 B.Zw=new A.he(0,1)
 B.ZB=new A.he(0.5,1)
@@ -95157,31 +95152,31 @@ B.ZF=new A.he(0.8875,0.25)
 B.ZD=new A.he(0.925,0.5)
 B.Zx=new A.he(0.9625,0.75)
 B.Zy=new A.he(1,1)
-B.Iy=s([B.Zw,B.ZB,B.ZE,B.ZG,B.ZC,B.ZA,B.Zz,B.ZF,B.ZD,B.Zx,B.Zy],A.am("r<he>"))
+B.Iz=s([B.Zw,B.ZB,B.ZE,B.ZG,B.ZC,B.ZA,B.Zz,B.ZF,B.ZD,B.Zx,B.Zy],A.am("r<he>"))
 B.cx=new A.lV(0,"left")
 B.dX=new A.lV(1,"right")
 B.cy=new A.lV(2,"center")
 B.ff=new A.lV(3,"justify")
 B.aO=new A.lV(4,"start")
 B.im=new A.lV(5,"end")
-B.Iz=s([B.cx,B.dX,B.cy,B.ff,B.aO,B.im],A.am("r<lV>"))
+B.IA=s([B.cx,B.dX,B.cy,B.ff,B.aO,B.im],A.am("r<lV>"))
 B.IN=s([2,1.13276676],t.n)
 B.HS=s([2.18349805,1.20311921],t.n)
 B.JL=s([2.33888662,1.28698796],t.n)
 B.JN=s([2.48660575,1.36351941],t.n)
-B.IC=s([2.62226596,1.44717976],t.n)
-B.II=s([2.7514899,1.53385819],t.n)
+B.ID=s([2.62226596,1.44717976],t.n)
+B.IJ=s([2.7514899,1.53385819],t.n)
 B.Jc=s([3.36298265,1.98288283],t.n)
 B.IS=s([4.08649929,2.23811846],t.n)
 B.J4=s([4.85481134,2.47563463],t.n)
-B.IF=s([5.62945551,2.72948597],t.n)
+B.IG=s([5.62945551,2.72948597],t.n)
 B.IO=s([6.43023796,2.98020421],t.n)
-B.oY=s([B.IN,B.HS,B.JL,B.JN,B.IC,B.II,B.Jc,B.IS,B.J4,B.IF,B.IO],t.zg)
-B.IB=s([B.j0,B.j1],A.am("r<xZ>"))
-B.IE=s([18,15,10,12,15,18,15,12,12],t.n)
+B.oY=s([B.IN,B.HS,B.JL,B.JN,B.ID,B.IJ,B.Jc,B.IS,B.J4,B.IG,B.IO],t.zg)
+B.IC=s([B.j0,B.j1],A.am("r<xZ>"))
+B.IF=s([18,15,10,12,15,18,15,12,12],t.n)
 B.RJ=new A.r6(0,0.6,"\ubc14\ub9ac\uc2a4\ud0c0","\uc5b4\uc11c\uc624\uc138\uc694! \ubb58 \ub4dc\ub9b4\uae4c\uc694?",!0)
 B.RI=new A.r6(3.8,6.5,"\ubc14\ub9ac\uc2a4\ud0c0","\uc544\uc774\uc2a4\ub85c \ub4dc\ub9b4\uae4c\uc694, \ub530\ub73b\ud558\uac8c \ub4dc\ub9b4\uae4c\uc694?",!0)
-B.IH=s([B.RJ,B.RI],t.fQ)
+B.II=s([B.RJ,B.RI],t.fQ)
 B.hX=new A.uZ(0,"isStopped")
 B.Pa=new A.uZ(1,"isPaused")
 B.zd=new A.uZ(2,"isRecording")
@@ -95202,7 +95197,7 @@ B.DD=new A.dk(16,"pcmWebM")
 B.DE=new A.dk(17,"opusWebM")
 B.DF=new A.dk(18,"vorbisWebM")
 B.DG=new A.dk(19,"pcmFloat32WAV")
-B.IK=s([B.n_,B.Dx,B.DH,B.DI,B.DJ,B.DK,B.fA,B.n1,B.DL,B.DM,B.Dy,B.Dz,B.DA,B.DB,B.DC,B.n0,B.DD,B.DE,B.DF,B.DG],A.am("r<dk>"))
+B.IL=s([B.n_,B.Dx,B.DH,B.DI,B.DJ,B.DK,B.fA,B.n1,B.DL,B.DM,B.Dy,B.Dz,B.DA,B.DB,B.DC,B.n0,B.DD,B.DE,B.DF,B.DG],A.am("r<dk>"))
 B.IQ=s(["",".aac",".opus",".caf",".mp3",".ogg",".pcm",".wav",".aiff","_pcm.caf",".flac",".mp4",".amr",".amr",".pcm",".pcm",".pcm",".webm",".webm",".wav"],t.s)
 B.aE=new A.eQ(0,"icon")
 B.aQ=new A.eQ(1,"input")
@@ -95256,6 +95251,14 @@ B.B3=new A.wc(2,"bottomLeft")
 B.Zh=new A.m9(B.B2,B.B3)
 B.Zi=new A.m9(B.B3,B.B2)
 B.Jh=s([B.Zg,B.Zj,B.Zh,B.Zi],A.am("r<m9>"))
+B.a_F=s(["\uc8fc\uc138\uc694","\ud560\uac8c\uc694","\ub77c\ub5bc","\uc544\uba54\ub9ac\uce74\ub178","\ucee4\ud53c","\uce74\ud478\uce58\ub178","\ubaa8\uce74"],t.s)
+B.Ix=s(["\ub77c\ub5bc","\ud55c","\uc8fc\uc138\uc694"],t.s)
+B.YV=new A.DZ(0.6,"\ubc14\ub9ac\uc2a4\ud0c0\uc5d0\uac8c \uc8fc\ubb38\ud574\ubcf4\uc138\uc694!","Order your coffee!",B.Ix,null)
+B.a_J=s(["\uc544\uc774\uc2a4","\ub530\ub73b","\ud56b","\ucc28\uac11","\ub728\uac81","\ucc28\uac8c","\ub728\uac81\uac8c"],t.s)
+B.Ji=s(["\uc544\uc774\uc2a4","\ub85c","\uc8fc\uc138\uc694"],t.s)
+B.IP=s(["\ub530\ub73b\ud558\uac8c","\uc8fc\uc138\uc694"],t.s)
+B.YW=new A.DZ(3.8,"\uc544\uc774\uc2a4 \ub610\ub294 \ub530\ub73b\ud558\uac8c \uc120\ud0dd\ud558\uc138\uc694!","Choose hot or iced!",B.Ji,B.IP)
+B.ht=s([B.YV,B.YW],A.am("r<DZ>"))
 B.P4=new A.ae(0.01339448,0.05994973)
 B.P3=new A.ae(0.13664115,0.13592082)
 B.OR=new A.ae(0.24545546,0.14099516)
@@ -95355,15 +95358,15 @@ B.kG=s([B.oO,B.HI,B.HF,B.co,B.oQ,B.hs,B.oR,B.HG,B.HH,B.oS,B.oP],A.am("r<e7>"))
 B.eH=s([B.cF,B.bG,B.fp,B.fq,B.fr],t.QP)
 B.Is=s([0.001200833568784504,0.002389694492170889,0.0002795742885861124],t.n)
 B.Jr=s([0.0005891086651375999,0.0029785502573438758,0.0003270666104008398],t.n)
-B.ID=s([0.00010146692491640572,0.0005364214359186694,0.0032979401770712076],t.n)
-B.JV=s([B.Is,B.Jr,B.ID],t.zg)
+B.IE=s([0.00010146692491640572,0.0005364214359186694,0.0032979401770712076],t.n)
+B.JV=s([B.Is,B.Jr,B.IE],t.zg)
 B.JW=s([45,95,45,20,45,90,45,45,45],t.n)
 B.Id=s([""],t.s)
 B.J0=s([".aac",".adt",".adts"],t.s)
 B.K2=s([".opus",".ogg"],t.s)
 B.pa=s([".caf"],t.s)
 B.Jf=s([".mp3"],t.s)
-B.Ix=s([".ogg"],t.s)
+B.Iy=s([".ogg"],t.s)
 B.kH=s([".pcm",".aiff"],t.s)
 B.oZ=s([".wav"],t.s)
 B.K5=s([".aiff"],t.s)
@@ -95373,7 +95376,7 @@ B.p9=s([".amr",".3ga"],t.s)
 B.Ip=s([".pcm",".webm"],t.s)
 B.IT=s([".opus",".webm"],t.s)
 B.JJ=s([".webm"],t.s)
-B.JX=s([B.Id,B.J0,B.K2,B.pa,B.Jf,B.Ix,B.kH,B.oZ,B.K5,B.pa,B.Jl,B.J6,B.p9,B.p9,B.kH,B.kH,B.Ip,B.IT,B.JJ,B.oZ],A.am("r<O<j>>"))
+B.JX=s([B.Id,B.J0,B.K2,B.pa,B.Jf,B.Iy,B.kH,B.oZ,B.K5,B.pa,B.Jl,B.J6,B.p9,B.p9,B.kH,B.kH,B.Ip,B.IT,B.JJ,B.oZ],A.am("r<O<j>>"))
 B.JY=s([120,120,20,45,20,15,20,120,120],t.n)
 B.dD=new A.hB(0,"controlModifier")
 B.dE=new A.hB(1,"shiftModifier")
@@ -95970,7 +95973,7 @@ B.K0=s([B.uR,null,null,B.eS],t.L)
 B.JR=s([B.uS,null,null,B.cW],t.L)
 B.Iq=s([B.uT,null,null,B.kT],t.L)
 B.HQ=s([B.uU,null,null,B.cX],t.L)
-B.IA=s([B.uV,null,null,B.eT],t.L)
+B.IB=s([B.uV,null,null,B.eT],t.L)
 B.JK=s([B.uW,null,null,B.cY],t.L)
 B.JM=s([B.uX,null,null,B.eU],t.L)
 B.It=s([B.eP,B.eP,B.hC,null],t.L)
@@ -95990,7 +95993,7 @@ B.Iv=s([B.eQ,B.eQ,B.hD,null],t.L)
 B.IZ=s([B.eL,null,null,B.eS],t.L)
 B.Js=s([B.eM,null,null,B.eU],t.L)
 B.Iw=s([B.cp,B.cp,B.cT,null],t.L)
-B.LS=new A.cQ(["*",B.Il,"+",B.JI,"-",B.IM,".",B.Jb,"/",B.HM,"0",B.JT,"1",B.JS,"2",B.Ir,"3",B.K0,"4",B.JR,"5",B.Iq,"6",B.HQ,"7",B.IA,"8",B.JK,"9",B.JM,"Alt",B.It,"AltGraph",B.JU,"ArrowDown",B.IU,"ArrowLeft",B.IV,"ArrowRight",B.IW,"ArrowUp",B.JZ,"Clear",B.JP,"Control",B.Iu,"Delete",B.Jm,"End",B.IX,"Enter",B.Io,"Home",B.IY,"Insert",B.JQ,"Meta",B.Iv,"PageDown",B.IZ,"PageUp",B.Js,"Shift",B.Iw],A.am("cQ<j,O<f?>>"))
+B.LS=new A.cQ(["*",B.Il,"+",B.JI,"-",B.IM,".",B.Jb,"/",B.HM,"0",B.JT,"1",B.JS,"2",B.Ir,"3",B.K0,"4",B.JR,"5",B.Iq,"6",B.HQ,"7",B.IB,"8",B.JK,"9",B.JM,"Alt",B.It,"AltGraph",B.JU,"ArrowDown",B.IU,"ArrowLeft",B.IV,"ArrowRight",B.IW,"ArrowUp",B.JZ,"Clear",B.JP,"Control",B.Iu,"Delete",B.Jm,"End",B.IX,"Enter",B.Io,"Home",B.IY,"Insert",B.JQ,"Meta",B.Iv,"PageDown",B.IZ,"PageUp",B.Js,"Shift",B.Iw],A.am("cQ<j,O<f?>>"))
 B.Mq={KeyA:0,KeyB:1,KeyC:2,KeyD:3,KeyE:4,KeyF:5,KeyG:6,KeyH:7,KeyI:8,KeyJ:9,KeyK:10,KeyL:11,KeyM:12,KeyN:13,KeyO:14,KeyP:15,KeyQ:16,KeyR:17,KeyS:18,KeyT:19,KeyU:20,KeyV:21,KeyW:22,KeyX:23,KeyY:24,KeyZ:25,Digit1:26,Digit2:27,Digit3:28,Digit4:29,Digit5:30,Digit6:31,Digit7:32,Digit8:33,Digit9:34,Digit0:35,Minus:36,Equal:37,BracketLeft:38,BracketRight:39,Backslash:40,Semicolon:41,Quote:42,Backquote:43,Comma:44,Period:45,Slash:46}
 B.vc=new A.bA(B.Mq,["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","1","2","3","4","5","6","7","8","9","0","-","=","[","]","\\",";","'","`",",",".","/"],t.li)
 B.Mn={Abort:0,Again:1,AltLeft:2,AltRight:3,ArrowDown:4,ArrowLeft:5,ArrowRight:6,ArrowUp:7,AudioVolumeDown:8,AudioVolumeMute:9,AudioVolumeUp:10,Backquote:11,Backslash:12,Backspace:13,BracketLeft:14,BracketRight:15,BrightnessDown:16,BrightnessUp:17,BrowserBack:18,BrowserFavorites:19,BrowserForward:20,BrowserHome:21,BrowserRefresh:22,BrowserSearch:23,BrowserStop:24,CapsLock:25,Comma:26,ContextMenu:27,ControlLeft:28,ControlRight:29,Convert:30,Copy:31,Cut:32,Delete:33,Digit0:34,Digit1:35,Digit2:36,Digit3:37,Digit4:38,Digit5:39,Digit6:40,Digit7:41,Digit8:42,Digit9:43,DisplayToggleIntExt:44,Eject:45,End:46,Enter:47,Equal:48,Escape:49,Esc:50,F1:51,F10:52,F11:53,F12:54,F13:55,F14:56,F15:57,F16:58,F17:59,F18:60,F19:61,F2:62,F20:63,F21:64,F22:65,F23:66,F24:67,F3:68,F4:69,F5:70,F6:71,F7:72,F8:73,F9:74,Find:75,Fn:76,FnLock:77,GameButton1:78,GameButton10:79,GameButton11:80,GameButton12:81,GameButton13:82,GameButton14:83,GameButton15:84,GameButton16:85,GameButton2:86,GameButton3:87,GameButton4:88,GameButton5:89,GameButton6:90,GameButton7:91,GameButton8:92,GameButton9:93,GameButtonA:94,GameButtonB:95,GameButtonC:96,GameButtonLeft1:97,GameButtonLeft2:98,GameButtonMode:99,GameButtonRight1:100,GameButtonRight2:101,GameButtonSelect:102,GameButtonStart:103,GameButtonThumbLeft:104,GameButtonThumbRight:105,GameButtonX:106,GameButtonY:107,GameButtonZ:108,Help:109,Home:110,Hyper:111,Insert:112,IntlBackslash:113,IntlRo:114,IntlYen:115,KanaMode:116,KeyA:117,KeyB:118,KeyC:119,KeyD:120,KeyE:121,KeyF:122,KeyG:123,KeyH:124,KeyI:125,KeyJ:126,KeyK:127,KeyL:128,KeyM:129,KeyN:130,KeyO:131,KeyP:132,KeyQ:133,KeyR:134,KeyS:135,KeyT:136,KeyU:137,KeyV:138,KeyW:139,KeyX:140,KeyY:141,KeyZ:142,KeyboardLayoutSelect:143,Lang1:144,Lang2:145,Lang3:146,Lang4:147,Lang5:148,LaunchApp1:149,LaunchApp2:150,LaunchAssistant:151,LaunchControlPanel:152,LaunchMail:153,LaunchScreenSaver:154,MailForward:155,MailReply:156,MailSend:157,MediaFastForward:158,MediaPause:159,MediaPlay:160,MediaPlayPause:161,MediaRecord:162,MediaRewind:163,MediaSelect:164,MediaStop:165,MediaTrackNext:166,MediaTrackPrevious:167,MetaLeft:168,MetaRight:169,MicrophoneMuteToggle:170,Minus:171,NonConvert:172,NumLock:173,Numpad0:174,Numpad1:175,Numpad2:176,Numpad3:177,Numpad4:178,Numpad5:179,Numpad6:180,Numpad7:181,Numpad8:182,Numpad9:183,NumpadAdd:184,NumpadBackspace:185,NumpadClear:186,NumpadClearEntry:187,NumpadComma:188,NumpadDecimal:189,NumpadDivide:190,NumpadEnter:191,NumpadEqual:192,NumpadMemoryAdd:193,NumpadMemoryClear:194,NumpadMemoryRecall:195,NumpadMemoryStore:196,NumpadMemorySubtract:197,NumpadMultiply:198,NumpadParenLeft:199,NumpadParenRight:200,NumpadSubtract:201,Open:202,PageDown:203,PageUp:204,Paste:205,Pause:206,Period:207,Power:208,PrintScreen:209,PrivacyScreenToggle:210,Props:211,Quote:212,Resume:213,ScrollLock:214,Select:215,SelectTask:216,Semicolon:217,ShiftLeft:218,ShiftRight:219,ShowAllWindows:220,Slash:221,Sleep:222,Space:223,Super:224,Suspend:225,Tab:226,Turbo:227,Undo:228,WakeUp:229,ZoomToggle:230}
