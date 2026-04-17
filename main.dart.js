@@ -85296,7 +85296,7 @@ h=J.t9(i,new A.aoI())
 m=new A.d5(h,new A.aoJ(),h.$ti.h("d5<1,j>")).b9(0,"\n")
 l=A.L5(null)
 s=7
-return A.H(l.aul("http://10.0.2.2:8000/feedback",A.ao(["scenario",n.a.d,"conversation",m,"user_messages",e],t.N,t.K),t.z),$async$xp)
+return A.H(l.aul("https://real-korean-backend.onrender.com/feedback",A.ao(["scenario",n.a.d,"conversation",m,"user_messages",e],t.N,t.K),t.z),$async$xp)
 case 7:k=b
 n.ab(new A.aoK(n,k))
 p=2
@@ -85363,7 +85363,7 @@ s.x=new A.zw(0,"Could not load feedback. Please try again.",A.b([],r),A.b([],r),
 s.w=!1},
 $S:0}
 A.aoM.prototype={
-$0(){return A.i7(this.a).hZ("/",null)},
+$0(){return A.i7(this.a).hZ("/video-practice",null)},
 $S:0}
 A.aoA.prototype={
 $1(a){return new A.rC(a,!0,null)},
