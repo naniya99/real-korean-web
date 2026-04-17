@@ -85383,7 +85383,7 @@ $S:0}
 A.aoE.prototype={
 $0(){var s=this.a.c
 s.toString
-return A.i7(s).hZ("/",null)},
+return A.i7(s).hZ("/video-practice",null)},
 $S:0}
 A.WU.prototype={
 K(a){var s,r=null,q=this.c
