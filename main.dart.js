@@ -87354,7 +87354,7 @@ return A.eq(A.bn(q,A.cT(l,B.v,B.y,B.w),B.m,B.bk,q,q,q,q,q,B.om,q,q,q),1)},
 RN(a){var s=null,r=A.cI(20),q=A.i6(A.ax(B.d.aB(127.5),B.E.B()>>>16&255,B.E.B()>>>8&255,B.E.B()&255),1)
 return A.bn(s,A.b3(a,s,s,s,B.B3,s,s),B.m,s,s,new A.bx(B.dt,s,q,r,s,s,B.Q),s,s,s,B.hp,s,s,s)},
 a8j(){var s=this,r=null,q=t.p
-return A.bn(r,A.cT(A.b([A.aGe("assets/images/tiger.png",80,80),B.by,B.Bh,B.aK,A.b3(""+s.fx+" / 3 Gate \ud1b5\uacfc",r,r,r,B.me,r,r),B.Az,A.f9(A.aAT(B.p7,B.Bj,new A.ap6(s),A.M3(r,r,B.R,r,r,r,r,r,r,r,r,r,B.ca,r,r,r,r,r,r,r)),r,1/0),B.by,A.de(A.b([A.eq(A.Oo(B.p5,B.Bm,new A.ap7(s),A.Op(r,r,r,r,r,r,r,r,r,r,r,r,B.ca,r,r,B.fH,r,r,r,r)),1),B.iH,A.eq(A.Oo(B.p6,B.Bk,new A.ap8(s),A.Op(r,r,r,r,r,r,r,r,r,r,r,r,B.ca,r,r,B.fH,r,r,r,r)),1)],q),B.v,B.y,B.w,0)],q),B.v,B.bu,B.w),B.m,B.bk,r,r,r,r,r,B.hq,r,r,r)}}
+return A.bn(r,A.cT(A.b([A.aGe("assets/images/tiger.png",48,48),B.by,B.Bh,B.aK,A.b3(""+s.fx+" / 3 Gate \ud1b5\uacfc",r,r,r,B.me,r,r),B.Az,A.f9(A.aAT(B.p7,B.Bj,new A.ap6(s),A.M3(r,r,B.R,r,r,r,r,r,r,r,r,r,B.ca,r,r,r,r,r,r,r)),r,1/0),B.by,A.de(A.b([A.eq(A.Oo(B.p5,B.Bm,new A.ap7(s),A.Op(r,r,r,r,r,r,r,r,r,r,r,r,B.ca,r,r,B.fH,r,r,r,r)),1),B.iH,A.eq(A.Oo(B.p6,B.Bk,new A.ap8(s),A.Op(r,r,r,r,r,r,r,r,r,r,r,r,B.ca,r,r,B.fH,r,r,r,r)),1)],q),B.v,B.y,B.w,0)],q),B.v,B.bu,B.w),B.m,B.bk,r,r,r,r,r,B.hq,r,r,r)}}
 A.apw.prototype={
 $0(){return this.a.xC()},
 $S:16}
@@ -87892,7 +87892,7 @@ return A.eq(A.bn(o,A.cT(l,B.v,B.y,B.w),B.m,B.bk,o,o,o,o,o,B.om,o,o,o),1)},
 VV(a){var s=null,r=A.cI(20),q=A.i6(A.ax(B.d.aB(127.5),B.E.B()>>>16&255,B.E.B()>>>8&255,B.E.B()&255),1)
 return A.bn(s,A.b3(a,s,s,s,B.B3,s,s),B.m,s,s,new A.bx(B.dt,s,q,r,s,s,B.Q),s,s,s,B.hp,s,s,s)},
 amY(){var s=this,r=null,q=t.p
-return A.bn(r,A.cT(A.b([A.aGe("assets/images/tiger.png",80,80),B.by,B.Bh,B.aK,A.b3(""+s.fx+" / 2 Gate \ud1b5\uacfc",r,r,r,B.me,r,r),B.Az,A.f9(A.aAT(B.p7,B.Bj,new A.ax2(s),A.M3(r,r,B.R,r,r,r,r,r,r,r,r,r,B.ca,r,r,r,r,r,r,r)),r,1/0),B.by,A.de(A.b([A.eq(A.Oo(B.p5,B.Bm,new A.ax3(s),A.Op(r,r,r,r,r,r,r,r,r,r,r,r,B.ca,r,r,B.fH,r,r,r,r)),1),B.iH,A.eq(A.Oo(B.p6,B.Bk,new A.ax4(s),A.Op(r,r,r,r,r,r,r,r,r,r,r,r,B.ca,r,r,B.fH,r,r,r,r)),1)],q),B.v,B.y,B.w,0)],q),B.v,B.bu,B.w),B.m,B.bk,r,r,r,r,r,B.hq,r,r,r)}}
+return A.bn(r,A.cT(A.b([A.aGe("assets/images/tiger.png",48,48),B.by,B.Bh,B.aK,A.b3(""+s.fx+" / 2 Gate \ud1b5\uacfc",r,r,r,B.me,r,r),B.Az,A.f9(A.aAT(B.p7,B.Bj,new A.ax2(s),A.M3(r,r,B.R,r,r,r,r,r,r,r,r,r,B.ca,r,r,r,r,r,r,r)),r,1/0),B.by,A.de(A.b([A.eq(A.Oo(B.p5,B.Bm,new A.ax3(s),A.Op(r,r,r,r,r,r,r,r,r,r,r,r,B.ca,r,r,B.fH,r,r,r,r)),1),B.iH,A.eq(A.Oo(B.p6,B.Bk,new A.ax4(s),A.Op(r,r,r,r,r,r,r,r,r,r,r,r,B.ca,r,r,B.fH,r,r,r,r)),1)],q),B.v,B.y,B.w,0)],q),B.v,B.bu,B.w),B.m,B.bk,r,r,r,r,r,B.hq,r,r,r)}}
 A.axs.prototype={
 $0(){return this.a.ya()},
 $S:16}
